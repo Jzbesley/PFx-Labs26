@@ -1,0 +1,74 @@
+# ─── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# ─── Jupyter / Google Colab ───────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── Data files ──────────────────────────────────────────────────────────────
+# Keep synthetic CSVs committed; ignore any accidental real data drops
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignore large or generated data exports (re-create with the notebooks)
+data/raw/
+data/external/
+
+# ─── Model artifacts ─────────────────────────────────────────────────────────
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+models/
+
+# ─── Output / generated files ────────────────────────────────────────────────
+outputs/
+figures/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.html          # generated maps (folium / plotly)
+
+# ─── macOS ───────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ─── IDEs & editors ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ─── Misc ────────────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+Thumbs.db
