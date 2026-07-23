@@ -1,0 +1,12 @@
+CA Lab 3 — SDMX Discussion Notes
+============================================================
+
+California uses the Local Control Funding Formula (LCFF)
+to categorize student need. This is more granular than
+a simple yes/no meals program flag — it recognizes English
+learners, foster youth, and low-income students separately.
+
+Discussion: How does LCFF compare to SDMX standards?
+What categories does LCFF still oversimplify?
+
+[Group notes here]

@@ -1,0 +1,11 @@
+key,value
+warnings_before,2
+warnings_after,1
+rd_acc,0.7627
+rd_pre,0.75
+rd_rec,0.1875
+district_gap,26.4
+low_district,Bakersfield City SD
+low_score,46.1
+high_district,San Jose USD
+high_score,72.5

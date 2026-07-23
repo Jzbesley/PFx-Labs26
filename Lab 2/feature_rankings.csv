@@ -1,0 +1,6 @@
+rank,feature,mi_score
+1,attendance_rate,0.1147
+2,avg_quiz_score,0.0979
+3,attendance_entropy,0.068
+4,meals_program,0.0075
+5,achievement_score,0.0058

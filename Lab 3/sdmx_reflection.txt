@@ -1,0 +1,49 @@
+Lab 3 — Step 2: SDMX Discussion Notes
+Generated: July 23, 2026
+====================================================================
+
+WHAT IS SDMX?
+SDMX stands for Statistical Data and Metadata eXchange. It is a
+shared rulebook used by organizations like the World Bank, the UN,
+and national statistics agencies so that when different countries
+share data, their categories mean the same thing.
+
+For example: one country might count "low income" as anyone earning
+under $15,000/year; another might use $25,000. Without a shared
+standard, you can't fairly compare data across those two countries.
+
+DISCUSSION QUESTIONS (talk with your group):
+1. Why could it cause problems if one school district counts
+   "at-risk" one way and another district counts it differently?
+
+2. Our 'meals_program' column is yes/no. The SDMX standard would
+   push for more detail — like income level or subsidy percentage.
+   Why does that extra detail matter?
+
+3. If two states share student data but define "achievement" using
+   different tests and scales, what could go wrong when you try to
+   compare them?
+
+4. Who gets hurt most when data categories are too broad or
+   inconsistent?
+
+====================================================================
+GROUP NOTES (write your answers below):
+
+[Question 1 notes]
+
+
+[Question 2 notes]
+
+
+[Question 3 notes]
+
+
+[Question 4 notes]
+
+
+====================================================================
+Key takeaway: The design of a dataset — what categories it uses,
+how finely it measures things, what it leaves out — can bake in
+bias BEFORE any model is ever built. SDMX tries to prevent this
+at the international level. Lab 3 does this at our own data level.

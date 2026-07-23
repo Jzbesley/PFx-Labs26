@@ -1,0 +1,23 @@
+key,value
+mse,151.81
+rmse,12.32
+top_feature,avg_quiz_score
+top_mi,0.0983
+district_low,Bakersfield City SD
+district_low_score,46.1
+district_high,San Jose USD
+district_high_score,72.5
+top_perm_feat,meals_program
+top_perm_imp,97.95
+cluster_1_avg_ach,59.6
+cluster_1_pct_risk,0.0
+cluster_1_pct_meal,17.9
+cluster_0_avg_ach,61.1
+cluster_0_pct_risk,0.0
+cluster_0_pct_meal,4.3
+cluster_3_avg_ach,61.9
+cluster_3_pct_risk,0.0
+cluster_3_pct_meal,0.0
+cluster_2_avg_ach,50.1
+cluster_2_pct_risk,0.0
+cluster_2_pct_meal,100.0

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 2 — District Achievement Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    body    { font-family: Arial, sans-serif; margin: 0; background: #f4f6f8; }
+    h2      { text-align: center; color: #2c3e50; padding: 16px 0 4px; margin: 0; }
+    .sub    { text-align: center; color: #666; font-size: 0.9em; margin-bottom: 12px; }
+    #map    { height: 480px; width: 90%; margin: 0 auto; border-radius: 8px;
+               box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+    .panel  { max-width: 800px; margin: 20px auto; background: white;
+               border-radius: 8px; padding: 20px;
+               box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    table   { border-collapse: collapse; width: 100%; }
+    th, td  { border: 1px solid #ddd; padding: 8px 12px; text-align: left; }
+    th      { background: #2c3e50; color: white; }
+    tr:nth-child(even) { background: #f9f9f9; }
+    .scale  { display: flex; align-items: center; gap: 8px;
+               margin: 10px auto; width: fit-content; }
+    .grad   { width: 200px; height: 14px; border-radius: 4px;
+               background: linear-gradient(to right, #dc0000, #dcdc00, #00b400); }
+    .footer { text-align: center; font-size: 0.78em; color: #aaa; margin-top: 16px; }
+  </style>
+</head>
+<body>
+  <h2>Lab 2 — District Achievement Score Map</h2>
+  <p class="sub">Circle size and colour reflect average achievement score.
+     <strong>Click a circle or pin</strong> for details.</p>
+
+  <div id="map"></div>
+
+  <div class="panel">
+    <h3 style="margin-top:0;">Colour Scale</h3>
+    <div class="scale">
+      <span style="color:#c0392b;">Low (51.5)</span>
+      <div class="grad"></div>
+      <span style="color:#27ae60;">High (75.4)</span>
+    </div>
+
+    <h3>District Summary Table</h3>
+    <table>
+      <tr>
+        <th>District</th>
+        <th>Avg Score</th>
+        <th>Students</th>
+        <th>At-Risk %</th>
+        <th>Meals %</th>
+      </tr>
+      <tr><td><span style='background:#00b400;display:inline-block;width:14px;height:14px;border-radius:50%;'></span> Highpoint ISD</td><td style='text-align:center;'><strong>75.4</strong></td><td>39</td><td>30.8%</td><td>0.0%</td></tr><tr><td><span style='background:#75b400;display:inline-block;width:14px;height:14px;border-radius:50%;'></span> Lakeshore ISD</td><td style='text-align:center;'><strong>69.0</strong></td><td>41</td><td>36.6%</td><td>0.0%</td></tr><tr><td><span style='background:#b0b400;display:inline-block;width:14px;height:14px;border-radius:50%;'></span> Maplewood CSD</td><td style='text-align:center;'><strong>65.8</strong></td><td>24</td><td>29.2%</td><td>0.0%</td></tr><tr><td><span style='background:#b9b400;display:inline-block;width:14px;height:14px;border-radius:50%;'></span> Westview USD</td><td style='text-align:center;'><strong>65.3</strong></td><td>40</td><td>17.5%</td><td>0.0%</td></tr><tr><td><span style='background:#dc9a00;display:inline-block;width:14px;height:14px;border-radius:50%;'></span> Pinecrest ISD</td><td style='text-align:center;'><strong>59.9</strong></td><td>43</td><td>23.3%</td><td>0.0%</td></tr><tr><td><span style='background:#dc9a00;display:inline-block;width:14px;height:14px;border-radius:50%;'></span> Oakdale USD</td><td style='text-align:center;'><strong>59.9</strong></td><td>34</td><td>20.6%</td><td>0.0%</td></tr><tr><td><span style='background:#dc3900;display:inline-block;width:14px;height:14px;border-radius:50%;'></span> Riverton USD</td><td style='text-align:center;'><strong>54.6</strong></td><td>31</td><td>19.4%</td><td>0.0%</td></tr><tr><td><span style='background:#dc0000;display:inline-block;width:14px;height:14px;border-radius:50%;'></span> Cedarville CSD</td><td style='text-align:center;'><strong>51.5</strong></td><td>39</td><td>33.3%</td><td>0.0%</td></tr>
+    </table>
+    <p class="footer">Lab 2 — Modeling Equity Series &mdash; All data is synthetic.</p>
+  </div>
+
+  <script>
+    var map = L.map('map').setView([32.5, -83.5], 7);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
+    }).addTo(map);
+    
+    L.circle([30.835, -83.978], {
+        color: '#dc0000',
+        fillColor: '#dc0000',
+        fillOpacity: 0.75,
+        radius: 18000,
+        weight: 2
+    }).bindPopup("Cedarville CSD<br><b>Avg Score: 51.5</b><br>Students: 39<br>At-risk: 33.3%<br>Meals program: 0.0%").addTo(map);
+    L.marker([30.835, -83.978]).bindPopup("Cedarville CSD<br><b>Avg Score: 51.5</b><br>Students: 39<br>At-risk: 33.3%<br>Meals program: 0.0%").addTo(map);
+
+    L.circle([31.57, -84.156], {
+        color: '#dc3900',
+        fillColor: '#dc3900',
+        fillOpacity: 0.75,
+        radius: 19297,
+        weight: 2
+    }).bindPopup("Riverton USD<br><b>Avg Score: 54.6</b><br>Students: 31<br>At-risk: 19.4%<br>Meals program: 0.0%").addTo(map);
+    L.marker([31.57, -84.156]).bindPopup("Riverton USD<br><b>Avg Score: 54.6</b><br>Students: 31<br>At-risk: 19.4%<br>Meals program: 0.0%").addTo(map);
+
+    L.circle([32.083, -81.099], {
+        color: '#dc9a00',
+        fillColor: '#dc9a00',
+        fillOpacity: 0.75,
+        radius: 21514,
+        weight: 2
+    }).bindPopup("Pinecrest ISD<br><b>Avg Score: 59.9</b><br>Students: 43<br>At-risk: 23.3%<br>Meals program: 0.0%").addTo(map);
+    L.marker([32.083, -81.099]).bindPopup("Pinecrest ISD<br><b>Avg Score: 59.9</b><br>Students: 43<br>At-risk: 23.3%<br>Meals program: 0.0%").addTo(map);
+
+    L.circle([32.54, -82.91], {
+        color: '#dc9a00',
+        fillColor: '#dc9a00',
+        fillOpacity: 0.75,
+        radius: 21514,
+        weight: 2
+    }).bindPopup("Oakdale USD<br><b>Avg Score: 59.9</b><br>Students: 34<br>At-risk: 20.6%<br>Meals program: 0.0%").addTo(map);
+    L.marker([32.54, -82.91]).bindPopup("Oakdale USD<br><b>Avg Score: 59.9</b><br>Students: 34<br>At-risk: 20.6%<br>Meals program: 0.0%").addTo(map);
+
+    L.circle([33.749, -84.388], {
+        color: '#b9b400',
+        fillColor: '#b9b400',
+        fillOpacity: 0.75,
+        radius: 23774,
+        weight: 2
+    }).bindPopup("Westview USD<br><b>Avg Score: 65.3</b><br>Students: 40<br>At-risk: 17.5%<br>Meals program: 0.0%").addTo(map);
+    L.marker([33.749, -84.388]).bindPopup("Westview USD<br><b>Avg Score: 65.3</b><br>Students: 40<br>At-risk: 17.5%<br>Meals program: 0.0%").addTo(map);
+
+    L.circle([33.58, -83.46], {
+        color: '#b0b400',
+        fillColor: '#b0b400',
+        fillOpacity: 0.75,
+        radius: 23983,
+        weight: 2
+    }).bindPopup("Maplewood CSD<br><b>Avg Score: 65.8</b><br>Students: 24<br>At-risk: 29.2%<br>Meals program: 0.0%").addTo(map);
+    L.marker([33.58, -83.46]).bindPopup("Maplewood CSD<br><b>Avg Score: 65.8</b><br>Students: 24<br>At-risk: 29.2%<br>Meals program: 0.0%").addTo(map);
+
+    L.circle([34.296, -83.824], {
+        color: '#75b400',
+        fillColor: '#75b400',
+        fillOpacity: 0.75,
+        radius: 25322,
+        weight: 2
+    }).bindPopup("Lakeshore ISD<br><b>Avg Score: 69.0</b><br>Students: 41<br>At-risk: 36.6%<br>Meals program: 0.0%").addTo(map);
+    L.marker([34.296, -83.824]).bindPopup("Lakeshore ISD<br><b>Avg Score: 69.0</b><br>Students: 41<br>At-risk: 36.6%<br>Meals program: 0.0%").addTo(map);
+
+    L.circle([34.014, -84.616], {
+        color: '#00b400',
+        fillColor: '#00b400',
+        fillOpacity: 0.75,
+        radius: 28000,
+        weight: 2
+    }).bindPopup("Highpoint ISD<br><b>Avg Score: 75.4</b><br>Students: 39<br>At-risk: 30.8%<br>Meals program: 0.0%").addTo(map);
+    L.marker([34.014, -84.616]).bindPopup("Highpoint ISD<br><b>Avg Score: 75.4</b><br>Students: 39<br>At-risk: 30.8%<br>Meals program: 0.0%").addTo(map);
+
+  </script>
+</body>
+</html>

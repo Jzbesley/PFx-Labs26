@@ -1,0 +1,301 @@
+student_id,attendance_rate,avg_quiz_score,economic_need_level,at_risk,attendance_entropy,district,sub_region,achievement_score,lat,lon
+CA0001,0.8357,81.7,moderate,no,0.6931,Bakersfield City SD,Bako East,39.0,35.373,-119.019
+CA0002,0.7375,89.6,moderate,no,1.0114,Fresno USD,Fresno Central,50.7,36.737,-119.787
+CA0003,0.8709,80.0,moderate,no,0.6931,Sacramento City USD,Sac Valley,56.1,38.581,-121.494
+CA0004,0.9016,76.0,critical,yes,0.4506,Bakersfield City SD,Bako West,34.8,35.373,-119.019
+CA0005,0.9273,85.3,moderate,no,0.4506,Fresno USD,Fresno West,50.5,36.737,-119.787
+CA0006,0.9628,96.3,high,no,0.0,San Diego USD,SD North,53.9,32.716,-117.161
+CA0007,1.0,96.3,moderate,no,0.0,Bakersfield City SD,Bako West,53.6,35.373,-119.019
+CA0008,0.919,82.8,low,no,0.0,San Francisco USD,SF Richmond,76.1,37.774,-122.419
+CA0009,0.8112,89.4,critical,no,0.4506,Los Angeles USD,LA West,40.1,34.052,-118.243
+CA0010,0.6677,91.3,critical,no,1.0114,San Francisco USD,SF Sunset,50.5,37.774,-122.419
+CA0011,0.6039,74.8,critical,yes,0.6931,Fresno USD,Fresno Central,34.0,36.737,-119.787
+CA0012,1.0,100.0,low,no,0.0,San Jose USD,SJ East,86.3,37.338,-121.886
+CA0013,0.7736,93.5,critical,no,0.8676,Fresno USD,Fresno East,40.6,36.737,-119.787
+CA0014,1.0,100.0,moderate,no,0.4506,Oakland USD,Oakland Flatlands,51.8,37.804,-122.271
+CA0015,0.6792,82.6,low,yes,0.6365,San Jose USD,SJ South,69.1,37.338,-121.886
+CA0016,0.8609,77.2,moderate,no,0.6365,Fresno USD,Fresno West,40.7,36.737,-119.787
+CA0017,0.5375,62.7,high,yes,1.0986,San Francisco USD,SF Sunset,65.5,37.774,-122.419
+CA0018,0.7184,85.4,high,no,0.6931,San Francisco USD,SF Sunset,56.2,37.774,-122.419
+CA0019,0.8201,88.4,moderate,no,0.6365,Bakersfield City SD,Bako West,50.2,35.373,-119.019
+CA0020,0.7478,81.7,low,no,1.0114,San Francisco USD,SF Mission,73.2,37.774,-122.419
+CA0021,0.9229,100.0,low,no,0.0,San Diego USD,SD South,76.6,32.716,-117.161
+CA0022,0.756,83.3,critical,no,1.0986,Los Angeles USD,LA West,47.6,34.052,-118.243
+CA0023,0.7149,75.3,critical,yes,0.8676,Fresno USD,Fresno East,45.8,36.737,-119.787
+CA0024,1.0,80.2,moderate,no,0.4506,Bakersfield City SD,Bako Central,44.0,35.373,-119.019
+CA0025,0.9053,94.4,high,no,0.0,San Jose USD,SJ East,66.2,37.338,-121.886
+CA0026,0.8473,67.8,critical,no,0.6365,Sacramento City USD,Sac Downtown,43.5,38.581,-121.494
+CA0027,1.0,81.2,high,no,0.4506,Sacramento City USD,Sac Valley,57.7,38.581,-121.494
+CA0028,0.8835,88.0,low,no,0.4506,San Jose USD,SJ East,81.8,37.338,-121.886
+CA0029,0.6752,81.2,moderate,no,0.8676,Oakland USD,Oakland Flatlands,53.6,37.804,-122.271
+CA0030,0.7253,68.2,critical,yes,1.0114,Los Angeles USD,LA East,46.1,34.052,-118.243
+CA0031,0.6542,59.7,high,no,0.6931,San Diego USD,SD East,71.7,32.716,-117.161
+CA0032,0.8734,87.4,moderate,no,0.4506,Fresno USD,Fresno Central,51.3,36.737,-119.787
+CA0033,1.0,91.5,low,no,0.0,San Diego USD,SD South,68.2,32.716,-117.161
+CA0034,0.8956,89.6,moderate,no,0.6931,Bakersfield City SD,Bako Central,51.1,35.373,-119.019
+CA0035,1.0,86.8,moderate,no,0.0,San Francisco USD,SF Richmond,56.9,37.774,-122.419
+CA0036,0.8308,100.0,critical,no,0.4506,Los Angeles USD,LA South,40.5,34.052,-118.243
+CA0037,0.9021,96.1,high,no,0.4506,Oakland USD,Oakland Flatlands,54.3,37.804,-122.271
+CA0038,0.8073,85.4,moderate,no,0.6365,San Diego USD,SD North,61.6,32.716,-117.161
+CA0039,0.7359,75.7,critical,no,1.0114,Fresno USD,Fresno East,34.7,36.737,-119.787
+CA0040,0.8828,66.6,moderate,yes,0.6931,Bakersfield City SD,Bako West,50.7,35.373,-119.019
+CA0041,0.7377,65.2,moderate,no,0.6931,Bakersfield City SD,Bako Central,53.7,35.373,-119.019
+CA0042,0.7614,72.2,critical,no,0.6365,Fresno USD,Fresno West,46.0,36.737,-119.787
+CA0043,0.8404,93.9,critical,no,0.4506,San Francisco USD,SF Richmond,43.6,37.774,-122.419
+CA0044,0.7529,79.8,high,yes,0.6365,San Francisco USD,SF Richmond,64.6,37.774,-122.419
+CA0045,0.9349,86.4,moderate,no,0.4506,Los Angeles USD,LA West,61.1,34.052,-118.243
+CA0046,0.8166,82.4,low,no,0.6931,San Jose USD,SJ North,80.1,37.338,-121.886
+CA0047,,72.8,critical,yes,0.4506,Bakersfield City SD,Bako East,48.5,35.373,-119.019
+CA0048,0.6903,91.7,high,yes,0.6365,Oakland USD,Oakland Flatlands,60.5,37.804,-122.271
+CA0049,0.7968,100.0,low,no,0.8676,Sacramento City USD,Sac Suburbs,66.0,38.581,-121.494
+CA0050,0.6795,70.9,high,no,0.6365,San Diego USD,SD South,57.4,32.716,-117.161
+CA0051,1.0,96.0,low,no,0.0,San Francisco USD,SF Sunset,79.6,37.774,-122.419
+CA0052,0.8998,91.2,moderate,no,0.4506,Sacramento City USD,Sac Downtown,62.0,38.581,-121.494
+CA0053,0.8044,88.1,moderate,yes,0.6365,San Francisco USD,SF Richmond,58.9,37.774,-122.419
+CA0054,0.8832,92.0,low,no,0.6365,San Jose USD,SJ North,71.0,37.338,-121.886
+CA0055,0.9287,96.1,low,no,0.6365,San Francisco USD,SF Mission,84.8,37.774,-122.419
+CA0056,1.0,81.8,critical,no,0.0,Oakland USD,Oakland Hills,43.6,37.804,-122.271
+CA0057,0.9951,100.0,moderate,no,0.0,San Diego USD,SD East,49.3,32.716,-117.161
+CA0058,0.8652,100.0,low,no,0.4506,Los Angeles USD,LA East,65.0,34.052,-118.243
+CA0059,,100.0,moderate,no,1.0114,Sacramento City USD,Sac Downtown,56.4,38.581,-121.494
+CA0060,0.8421,72.9,high,yes,0.6931,San Francisco USD,SF Richmond,53.0,37.774,-122.419
+CA0061,0.8171,64.8,high,no,0.6365,Sacramento City USD,Sac Valley,52.8,38.581,-121.494
+CA0062,0.9817,94.6,moderate,no,0.0,Los Angeles USD,LA West,63.9,34.052,-118.243
+CA0063,,85.4,low,no,1.0114,San Jose USD,SJ East,75.4,37.338,-121.886
+CA0064,0.7805,80.7,moderate,no,0.6365,Fresno USD,Fresno East,54.8,36.737,-119.787
+CA0065,0.9713,92.2,moderate,no,0.0,Sacramento City USD,Sac Suburbs,54.2,38.581,-121.494
+CA0066,0.6049,88.3,high,no,0.6931,San Diego USD,SD East,53.7,32.716,-117.161
+CA0067,0.7527,93.2,moderate,no,0.6365,Fresno USD,Fresno Central,56.5,36.737,-119.787
+CA0068,0.9458,100.0,moderate,no,0.4506,Oakland USD,Oakland Flatlands,60.3,37.804,-122.271
+CA0069,0.9387,99.3,high,no,0.4506,Sacramento City USD,Sac Valley,58.3,38.581,-121.494
+CA0070,0.9097,86.0,moderate,no,0.4506,Bakersfield City SD,Bako West,59.1,35.373,-119.019
+CA0071,1.0,94.9,low,no,0.0,San Jose USD,SJ North,74.2,37.338,-121.886
+CA0072,0.5818,69.2,low,yes,0.4506,San Jose USD,SJ North,67.7,37.338,-121.886
+CA0073,0.6416,64.1,high,no,0.6365,Sacramento City USD,Sac Suburbs,52.7,38.581,-121.494
+CA0074,0.5073,69.1,high,yes,0.6365,San Diego USD,SD South,53.5,32.716,-117.161
+CA0075,1.0,96.1,moderate,no,0.0,Fresno USD,Fresno Central,48.3,36.737,-119.787
+CA0076,0.6595,80.1,critical,yes,0.6365,Sacramento City USD,Sac Downtown,49.2,38.581,-121.494
+CA0077,0.7943,100.0,critical,no,0.6365,Bakersfield City SD,Bako East,36.7,35.373,-119.019
+CA0078,0.7382,87.2,low,no,0.8676,San Jose USD,SJ South,73.2,37.338,-121.886
+CA0079,1.0,87.8,moderate,no,0.6365,San Francisco USD,SF Sunset,57.0,37.774,-122.419
+CA0080,0.6464,75.5,moderate,no,1.0114,Fresno USD,Fresno East,54.6,36.737,-119.787
+CA0081,0.9843,94.4,low,no,0.4506,San Diego USD,SD North,66.8,32.716,-117.161
+CA0082,0.9128,96.8,moderate,no,0.4506,Sacramento City USD,Sac Suburbs,54.9,38.581,-121.494
+CA0083,0.65,81.2,high,no,0.6931,San Jose USD,SJ South,66.8,37.338,-121.886
+CA0084,0.8877,83.1,low,yes,0.8676,San Diego USD,SD East,75.0,32.716,-117.161
+CA0085,0.9022,100.0,moderate,no,0.0,Sacramento City USD,Sac Suburbs,49.9,38.581,-121.494
+CA0086,1.0,91.4,moderate,no,0.0,San Diego USD,SD South,55.0,32.716,-117.161
+CA0087,0.8488,97.0,low,no,0.6365,San Francisco USD,SF Sunset,80.0,37.774,-122.419
+CA0088,0.6986,62.7,low,yes,0.8676,San Jose USD,SJ East,79.9,37.338,-121.886
+CA0089,0.7886,85.9,critical,no,0.6931,Oakland USD,Oakland Flatlands,42.3,37.804,-122.271
+CA0090,0.7257,95.4,moderate,no,0.0,Fresno USD,Fresno Central,50.0,36.737,-119.787
+CA0091,0.8026,73.7,low,yes,0.4506,San Francisco USD,SF Sunset,74.0,37.774,-122.419
+CA0092,1.0,100.0,low,no,0.0,Sacramento City USD,Sac Valley,73.2,38.581,-121.494
+CA0093,0.86,92.0,high,no,0.0,San Francisco USD,SF Mission,59.3,37.774,-122.419
+CA0094,0.6969,100.0,low,no,0.6365,San Francisco USD,SF Richmond,70.8,37.774,-122.419
+CA0095,0.7904,93.2,moderate,no,0.8676,Los Angeles USD,LA East,57.7,34.052,-118.243
+CA0096,0.7157,64.7,low,yes,0.0,San Jose USD,SJ East,81.8,37.338,-121.886
+CA0097,0.9115,86.8,moderate,no,0.6365,San Francisco USD,SF Sunset,61.9,37.774,-122.419
+CA0098,0.9508,98.1,low,no,0.4506,Oakland USD,Oakland Hills,66.5,37.804,-122.271
+CA0099,1.0,100.0,moderate,no,0.4506,Bakersfield City SD,Bako Central,49.9,35.373,-119.019
+CA0100,1.0,86.8,moderate,no,0.4506,Sacramento City USD,Sac Downtown,53.5,38.581,-121.494
+CA0101,0.6473,100.0,moderate,no,0.6931,Bakersfield City SD,Bako Central,44.4,35.373,-119.019
+CA0102,0.866,81.0,moderate,no,0.4506,Oakland USD,Oakland Hills,59.6,37.804,-122.271
+CA0103,0.736,83.3,moderate,no,0.8676,Sacramento City USD,Sac Suburbs,48.6,38.581,-121.494
+CA0104,1.0,100.0,moderate,no,0.4506,Oakland USD,Oakland North,61.9,37.804,-122.271
+CA0105,0.9567,91.2,moderate,no,0.0,San Diego USD,SD North,64.9,32.716,-117.161
+CA0106,0.8986,78.3,low,yes,0.0,San Diego USD,SD South,72.8,32.716,-117.161
+CA0107,0.83,100.0,critical,no,0.6365,Bakersfield City SD,Bako Central,26.6,35.373,-119.019
+CA0108,0.9661,99.4,moderate,no,0.6365,Fresno USD,Fresno Central,50.3,36.737,-119.787
+CA0109,0.8289,92.1,moderate,no,0.4506,Sacramento City USD,Sac Downtown,53.6,38.581,-121.494
+CA0110,0.8009,85.0,moderate,no,0.6931,Fresno USD,Fresno West,47.1,36.737,-119.787
+CA0111,0.6169,97.5,critical,yes,0.8676,Fresno USD,Fresno Central,43.8,36.737,-119.787
+CA0112,1.0,99.6,critical,no,0.4506,Los Angeles USD,LA South,43.4,34.052,-118.243
+CA0113,0.7644,72.5,low,yes,0.6931,Oakland USD,Oakland North,68.0,37.804,-122.271
+CA0114,0.6935,97.5,critical,no,0.6365,Los Angeles USD,LA West,50.7,34.052,-118.243
+CA0115,0.963,89.1,moderate,no,0.0,Sacramento City USD,Sac Suburbs,56.9,38.581,-121.494
+CA0116,0.9021,86.8,high,no,0.0,San Francisco USD,SF Sunset,60.5,37.774,-122.419
+CA0117,0.8815,100.0,high,no,0.8676,Los Angeles USD,LA South,54.8,34.052,-118.243
+CA0118,0.8205,83.0,moderate,no,0.6931,Los Angeles USD,LA South,61.0,34.052,-118.243
+CA0119,0.8157,70.8,critical,no,0.6365,Fresno USD,Fresno Central,40.9,36.737,-119.787
+CA0120,0.7905,80.6,moderate,no,1.0114,Los Angeles USD,LA Central,55.8,34.052,-118.243
+CA0121,0.7795,74.1,high,no,0.6365,San Jose USD,SJ South,61.7,37.338,-121.886
+CA0122,1.0,95.0,moderate,no,0.0,San Diego USD,SD South,63.0,32.716,-117.161
+CA0123,,95.9,low,no,0.4506,San Jose USD,SJ South,65.5,37.338,-121.886
+CA0124,0.5633,79.7,critical,yes,0.8676,Bakersfield City SD,Bako Central,40.7,35.373,-119.019
+CA0125,0.9183,99.7,moderate,yes,0.0,Bakersfield City SD,Bako West,49.0,35.373,-119.019
+CA0126,0.8395,92.6,high,no,0.6365,San Diego USD,SD East,52.6,32.716,-117.161
+CA0127,0.542,80.5,moderate,no,1.0114,Oakland USD,Oakland North,49.5,37.804,-122.271
+CA0128,0.7549,91.2,low,yes,0.4506,Oakland USD,Oakland Flatlands,71.2,37.804,-122.271
+CA0129,0.7874,84.0,critical,no,1.0114,Bakersfield City SD,Bako West,39.6,35.373,-119.019
+CA0130,0.7869,100.0,moderate,no,1.0114,Sacramento City USD,Sac Downtown,60.8,38.581,-121.494
+CA0131,0.5877,81.6,high,no,1.0114,San Jose USD,SJ South,71.6,37.338,-121.886
+CA0132,0.6364,75.9,critical,no,0.6365,Fresno USD,Fresno Central,39.2,36.737,-119.787
+CA0133,0.7599,75.8,high,no,0.6931,San Jose USD,SJ North,79.3,37.338,-121.886
+CA0134,0.8271,83.9,low,yes,0.4506,Los Angeles USD,LA South,71.1,34.052,-118.243
+CA0135,0.8055,81.8,critical,no,0.6365,San Francisco USD,SF Mission,41.7,37.774,-122.419
+CA0136,0.7766,95.7,high,no,0.8676,San Diego USD,SD East,62.6,32.716,-117.161
+CA0137,0.5715,60.5,high,yes,0.6365,Oakland USD,Oakland Hills,53.8,37.804,-122.271
+CA0138,1.0,88.2,low,no,0.0,Oakland USD,Oakland Flatlands,70.2,37.804,-122.271
+CA0139,0.5343,65.7,high,yes,0.6931,San Jose USD,SJ South,63.1,37.338,-121.886
+CA0140,0.9025,85.6,low,no,0.6365,San Francisco USD,SF Sunset,66.5,37.774,-122.419
+CA0141,0.7558,87.1,critical,no,0.6365,Los Angeles USD,LA Central,47.4,34.052,-118.243
+CA0142,1.0,100.0,moderate,no,0.0,Los Angeles USD,LA South,52.9,34.052,-118.243
+CA0143,0.7733,76.4,low,no,1.0114,San Diego USD,SD East,69.1,32.716,-117.161
+CA0144,1.0,88.9,low,no,0.0,San Diego USD,SD East,67.6,32.716,-117.161
+CA0145,0.9247,72.5,low,no,0.4506,San Francisco USD,SF Sunset,71.9,37.774,-122.419
+CA0146,0.9427,93.4,moderate,no,0.4506,Fresno USD,Fresno Central,60.5,36.737,-119.787
+CA0147,0.8636,86.8,moderate,no,0.0,San Diego USD,SD North,62.0,32.716,-117.161
+CA0148,1.0,100.0,low,yes,0.0,San Jose USD,SJ North,77.1,37.338,-121.886
+CA0149,0.8628,99.1,low,no,0.4506,San Francisco USD,SF Mission,69.3,37.774,-122.419
+CA0150,0.6226,63.6,high,no,0.6931,San Francisco USD,SF Sunset,65.5,37.774,-122.419
+CA0151,0.6621,84.9,moderate,no,0.6365,San Francisco USD,SF Mission,64.5,37.774,-122.419
+CA0152,1.0,89.1,moderate,no,0.0,Fresno USD,Fresno Central,48.4,36.737,-119.787
+CA0153,0.7538,81.5,critical,no,0.4506,San Francisco USD,SF Sunset,50.1,37.774,-122.419
+CA0154,1.0,80.7,moderate,yes,0.0,San Diego USD,SD East,60.9,32.716,-117.161
+CA0155,,100.0,high,no,0.8676,San Francisco USD,SF Mission,54.8,37.774,-122.419
+CA0156,0.8643,81.3,moderate,no,0.0,Oakland USD,Oakland North,48.7,37.804,-122.271
+CA0157,0.9235,83.3,low,no,0.4506,San Francisco USD,SF Mission,73.2,37.774,-122.419
+CA0158,0.7793,100.0,moderate,no,0.6365,San Diego USD,SD North,60.6,32.716,-117.161
+CA0159,0.8488,94.6,low,no,0.6931,San Jose USD,SJ South,79.2,37.338,-121.886
+CA0160,0.7408,88.8,moderate,yes,1.0114,Bakersfield City SD,Bako West,41.2,35.373,-119.019
+CA0161,0.7251,73.3,critical,yes,1.0114,Fresno USD,Fresno East,38.8,36.737,-119.787
+CA0162,1.0,100.0,moderate,no,0.0,San Jose USD,SJ North,52.2,37.338,-121.886
+CA0163,0.7057,79.2,critical,no,0.6365,Oakland USD,Oakland Hills,51.9,37.804,-122.271
+CA0164,0.9403,99.3,moderate,no,0.6365,Sacramento City USD,Sac Downtown,49.5,38.581,-121.494
+CA0165,0.8005,83.8,low,no,0.6931,San Jose USD,SJ North,75.4,37.338,-121.886
+CA0166,0.6278,65.3,critical,no,0.4506,Bakersfield City SD,Bako West,44.6,35.373,-119.019
+CA0167,,82.4,low,no,1.0114,Sacramento City USD,Sac Downtown,73.7,38.581,-121.494
+CA0168,0.5334,97.4,critical,no,0.8676,Fresno USD,Fresno East,39.4,36.737,-119.787
+CA0169,0.8743,100.0,moderate,no,0.6365,Bakersfield City SD,Bako West,62.2,35.373,-119.019
+CA0170,0.9338,86.8,moderate,no,0.0,San Francisco USD,SF Sunset,61.0,37.774,-122.419
+CA0171,0.8282,81.3,moderate,no,0.8676,Sacramento City USD,Sac Valley,59.6,38.581,-121.494
+CA0172,1.0,100.0,low,no,0.0,San Diego USD,SD North,80.4,32.716,-117.161
+CA0173,0.8442,68.5,moderate,no,0.6931,Los Angeles USD,LA Central,52.8,34.052,-118.243
+CA0174,0.8847,90.2,moderate,no,0.6365,Fresno USD,Fresno East,51.2,36.737,-119.787
+CA0175,0.9934,94.8,low,no,0.4506,San Francisco USD,SF Mission,69.2,37.774,-122.419
+CA0176,0.8914,86.8,low,no,0.0,San Francisco USD,SF Sunset,70.2,37.774,-122.419
+CA0177,1.0,96.2,moderate,no,0.4506,Oakland USD,Oakland North,64.7,37.804,-122.271
+CA0178,0.7394,86.2,moderate,no,0.8676,Oakland USD,Oakland Flatlands,53.0,37.804,-122.271
+CA0179,0.7622,76.3,low,no,0.6365,San Francisco USD,SF Mission,70.8,37.774,-122.419
+CA0180,0.9976,100.0,moderate,no,0.0,Bakersfield City SD,Bako Central,49.4,35.373,-119.019
+CA0181,1.0,100.0,moderate,no,0.0,Los Angeles USD,LA West,56.5,34.052,-118.243
+CA0182,0.8644,100.0,moderate,no,0.0,Fresno USD,Fresno Central,56.3,36.737,-119.787
+CA0183,,86.8,moderate,no,1.0114,San Diego USD,SD North,61.6,32.716,-117.161
+CA0184,0.7754,79.2,high,yes,0.6931,San Diego USD,SD North,64.1,32.716,-117.161
+CA0185,0.7812,86.8,low,no,0.6931,Oakland USD,Oakland Hills,75.4,37.804,-122.271
+CA0186,1.0,100.0,moderate,no,0.4506,Fresno USD,Fresno East,57.0,36.737,-119.787
+CA0187,0.7469,74.0,critical,yes,0.4506,Bakersfield City SD,Bako West,37.8,35.373,-119.019
+CA0188,0.8884,88.0,low,no,0.0,Oakland USD,Oakland North,68.0,37.804,-122.271
+CA0189,0.5271,48.5,critical,yes,0.6365,Los Angeles USD,LA East,47.2,34.052,-118.243
+CA0190,1.0,100.0,moderate,no,0.4506,Bakersfield City SD,Bako West,42.6,35.373,-119.019
+CA0191,0.9712,91.6,moderate,no,0.0,Fresno USD,Fresno Central,54.5,36.737,-119.787
+CA0192,0.8548,91.7,moderate,no,0.6365,Sacramento City USD,Sac Valley,58.8,38.581,-121.494
+CA0193,1.0,97.1,low,no,0.4506,San Francisco USD,SF Mission,72.3,37.774,-122.419
+CA0194,0.7599,85.8,moderate,no,0.6365,Oakland USD,Oakland Flatlands,54.0,37.804,-122.271
+CA0195,1.0,100.0,moderate,no,0.0,Fresno USD,Fresno Central,61.4,36.737,-119.787
+CA0196,0.8826,85.8,moderate,no,0.4506,Fresno USD,Fresno West,46.2,36.737,-119.787
+CA0197,0.7537,93.2,high,no,0.4506,San Diego USD,SD South,62.4,32.716,-117.161
+CA0198,0.4487,50.4,high,yes,0.8676,San Diego USD,SD South,54.1,32.716,-117.161
+CA0199,0.8593,100.0,moderate,no,0.6931,Oakland USD,Oakland North,50.6,37.804,-122.271
+CA0200,1.0,100.0,moderate,no,0.0,Fresno USD,Fresno West,42.1,36.737,-119.787
+CA0201,0.6019,85.0,critical,yes,0.4506,Sacramento City USD,Sac Valley,43.6,38.581,-121.494
+CA0202,0.8412,78.5,moderate,no,0.6365,Fresno USD,Fresno West,61.7,36.737,-119.787
+CA0203,0.8565,83.8,moderate,no,0.4506,Fresno USD,Fresno East,55.0,36.737,-119.787
+CA0204,0.6468,71.5,high,no,1.0114,Sacramento City USD,Sac Downtown,57.9,38.581,-121.494
+CA0205,0.9109,91.8,critical,no,0.4506,Oakland USD,Oakland Flatlands,43.5,37.804,-122.271
+CA0206,0.7754,87.9,high,no,0.6365,San Jose USD,SJ East,72.3,37.338,-121.886
+CA0207,0.7101,92.6,critical,no,0.8676,Oakland USD,Oakland Flatlands,36.8,37.804,-122.271
+CA0208,0.7629,98.2,high,no,0.8676,San Francisco USD,SF Richmond,55.0,37.774,-122.419
+CA0209,0.8193,83.0,moderate,no,0.0,Oakland USD,Oakland North,58.2,37.804,-122.271
+CA0210,0.7719,77.7,low,no,1.0114,San Jose USD,SJ East,69.8,37.338,-121.886
+CA0211,,95.3,moderate,no,0.8676,Oakland USD,Oakland Hills,45.1,37.804,-122.271
+CA0212,0.8169,78.7,high,no,0.4506,San Francisco USD,SF Mission,59.5,37.774,-122.419
+CA0213,0.8046,97.8,moderate,no,0.6931,San Diego USD,SD North,59.5,32.716,-117.161
+CA0214,0.7494,97.7,critical,no,1.0114,Sacramento City USD,Sac Suburbs,46.6,38.581,-121.494
+CA0215,0.6948,74.9,high,no,0.4506,San Jose USD,SJ South,69.9,37.338,-121.886
+CA0216,0.6418,72.0,low,no,0.4506,Los Angeles USD,LA East,70.5,34.052,-118.243
+CA0217,1.0,93.0,moderate,no,0.0,Los Angeles USD,LA East,56.9,34.052,-118.243
+CA0218,0.8024,83.6,moderate,no,0.6931,Fresno USD,Fresno West,57.9,36.737,-119.787
+CA0219,0.6596,81.3,high,no,1.0114,Los Angeles USD,LA South,65.8,34.052,-118.243
+CA0220,0.7914,89.5,moderate,no,1.0114,Bakersfield City SD,Bako West,54.2,35.373,-119.019
+CA0221,1.0,82.5,critical,no,0.0,Sacramento City USD,Sac Downtown,44.4,38.581,-121.494
+CA0222,0.8819,91.6,moderate,no,0.0,Los Angeles USD,LA Central,55.2,34.052,-118.243
+CA0223,0.7274,83.9,critical,yes,1.0114,Los Angeles USD,LA West,47.9,34.052,-118.243
+CA0224,0.5619,70.0,high,yes,1.0114,San Jose USD,SJ East,83.2,37.338,-121.886
+CA0225,1.0,99.9,critical,no,0.0,San Diego USD,SD North,49.5,32.716,-117.161
+CA0226,0.6805,81.8,critical,no,0.6931,San Diego USD,SD North,48.5,32.716,-117.161
+CA0227,0.7641,76.3,moderate,no,1.0114,Los Angeles USD,LA South,57.2,34.052,-118.243
+CA0228,0.7012,79.9,moderate,no,0.6365,Bakersfield City SD,Bako West,39.5,35.373,-119.019
+CA0229,0.8618,94.4,moderate,no,0.4506,San Francisco USD,SF Mission,59.3,37.774,-122.419
+CA0230,1.0,100.0,moderate,no,0.0,Bakersfield City SD,Bako Central,52.2,35.373,-119.019
+CA0231,0.6401,72.0,low,yes,0.6931,San Francisco USD,SF Sunset,73.5,37.774,-122.419
+CA0232,0.6976,86.8,critical,no,0.4506,Sacramento City USD,Sac Suburbs,48.3,38.581,-121.494
+CA0233,0.8192,75.9,critical,no,1.0114,Bakersfield City SD,Bako West,21.8,35.373,-119.019
+CA0234,1.0,100.0,moderate,no,0.4506,Bakersfield City SD,Bako East,56.5,35.373,-119.019
+CA0235,0.9439,82.6,critical,no,0.0,Los Angeles USD,LA Central,44.7,34.052,-118.243
+CA0236,0.7722,99.8,moderate,no,0.6365,San Francisco USD,SF Richmond,59.5,37.774,-122.419
+CA0237,0.6996,93.0,low,no,0.8676,San Francisco USD,SF Richmond,82.1,37.774,-122.419
+CA0238,0.8443,79.7,moderate,yes,0.4506,Fresno USD,Fresno Central,53.1,36.737,-119.787
+CA0239,0.7067,86.8,moderate,yes,0.0,Bakersfield City SD,Bako West,64.3,35.373,-119.019
+CA0240,0.9205,86.8,critical,no,0.4506,Bakersfield City SD,Bako East,50.5,35.373,-119.019
+CA0241,0.7658,79.2,high,no,0.8676,San Diego USD,SD East,53.4,32.716,-117.161
+CA0242,1.0,100.0,low,no,0.4506,San Jose USD,SJ South,72.6,37.338,-121.886
+CA0243,1.0,86.1,moderate,no,0.0,Bakersfield City SD,Bako West,51.8,35.373,-119.019
+CA0244,0.6844,77.0,moderate,no,1.0114,Bakersfield City SD,Bako West,61.6,35.373,-119.019
+CA0245,0.8122,93.2,critical,no,0.6365,Bakersfield City SD,Bako Central,30.0,35.373,-119.019
+CA0246,0.7519,83.6,high,no,0.8676,San Jose USD,SJ North,77.9,37.338,-121.886
+CA0247,0.7986,98.1,high,no,0.6931,San Jose USD,SJ East,59.4,37.338,-121.886
+CA0248,0.7279,86.8,moderate,no,0.8676,Oakland USD,Oakland Hills,58.0,37.804,-122.271
+CA0249,0.6692,75.4,critical,no,0.0,Sacramento City USD,Sac Suburbs,45.2,38.581,-121.494
+CA0250,0.7363,76.8,low,no,1.0114,San Diego USD,SD North,65.9,32.716,-117.161
+CA0251,0.8236,79.5,critical,no,0.8676,Bakersfield City SD,Bako Central,43.2,35.373,-119.019
+CA0252,0.9139,86.8,critical,no,0.6365,Bakersfield City SD,Bako Central,37.7,35.373,-119.019
+CA0253,0.7835,82.6,low,no,0.6365,San Jose USD,SJ North,91.7,37.338,-121.886
+CA0254,0.8218,86.0,moderate,no,0.4506,Bakersfield City SD,Bako East,47.9,35.373,-119.019
+CA0255,0.7769,79.7,high,no,1.0114,Fresno USD,Fresno West,63.4,36.737,-119.787
+CA0256,0.7817,86.8,critical,no,0.6365,Oakland USD,Oakland Flatlands,45.8,37.804,-122.271
+CA0257,0.845,62.1,low,no,0.6365,Los Angeles USD,LA South,65.5,34.052,-118.243
+CA0258,0.7765,67.0,critical,yes,0.6365,San Diego USD,SD North,48.3,32.716,-117.161
+CA0259,0.6697,65.2,critical,yes,1.0114,Fresno USD,Fresno West,41.5,36.737,-119.787
+CA0260,0.9775,91.4,low,no,0.0,San Jose USD,SJ South,80.6,37.338,-121.886
+CA0261,1.0,86.9,low,no,0.4506,San Jose USD,SJ South,71.2,37.338,-121.886
+CA0262,0.7902,95.3,critical,no,1.0114,Oakland USD,Oakland Flatlands,45.7,37.804,-122.271
+CA0263,1.0,100.0,low,no,0.4506,San Diego USD,SD East,69.3,32.716,-117.161
+CA0264,0.9333,87.8,low,no,0.4506,Los Angeles USD,LA West,68.5,34.052,-118.243
+CA0265,0.5797,77.6,high,yes,0.4506,Los Angeles USD,LA East,54.8,34.052,-118.243
+CA0266,1.0,100.0,moderate,no,0.0,San Francisco USD,SF Mission,60.8,37.774,-122.419
+CA0267,0.6579,73.9,critical,no,0.6365,Fresno USD,Fresno Central,37.4,36.737,-119.787
+CA0268,0.8427,100.0,low,no,0.6931,San Diego USD,SD North,77.1,32.716,-117.161
+CA0269,0.697,86.8,moderate,no,1.0114,Los Angeles USD,LA West,50.9,34.052,-118.243
+CA0270,0.6748,86.8,critical,yes,0.8676,Oakland USD,Oakland Flatlands,35.9,37.804,-122.271
+CA0271,0.9792,100.0,low,no,0.0,San Francisco USD,SF Sunset,68.1,37.774,-122.419
+CA0272,1.0,97.0,low,no,0.0,San Francisco USD,SF Mission,76.3,37.774,-122.419
+CA0273,0.8828,100.0,low,no,0.6931,Sacramento City USD,Sac Valley,71.2,38.581,-121.494
+CA0274,0.5116,86.8,critical,yes,1.0986,Bakersfield City SD,Bako West,31.2,35.373,-119.019
+CA0275,0.7913,82.5,low,no,1.0114,Sacramento City USD,Sac Downtown,69.3,38.581,-121.494
+CA0276,0.7986,84.9,high,no,1.0114,San Jose USD,SJ North,52.5,37.338,-121.886
+CA0277,0.9713,99.1,moderate,no,0.0,San Diego USD,SD East,60.8,32.716,-117.161
+CA0278,0.9043,80.4,moderate,no,0.4506,Los Angeles USD,LA South,54.2,34.052,-118.243
+CA0279,0.7217,83.4,high,no,0.4506,San Jose USD,SJ North,64.2,37.338,-121.886
+CA0280,,83.2,low,yes,0.4506,San Diego USD,SD South,71.7,32.716,-117.161
+CA0281,1.0,96.6,critical,no,0.0,Oakland USD,Oakland Hills,42.1,37.804,-122.271
+CA0282,0.8312,73.2,moderate,yes,0.4506,Oakland USD,Oakland Hills,52.7,37.804,-122.271
+CA0283,0.8173,75.6,moderate,no,0.6931,Oakland USD,Oakland Flatlands,55.8,37.804,-122.271
+CA0284,0.617,73.1,low,yes,0.6931,San Jose USD,SJ East,75.1,37.338,-121.886
+CA0285,0.9257,86.8,critical,no,0.0,Oakland USD,Oakland North,42.4,37.804,-122.271
+CA0286,0.8563,80.8,moderate,no,0.6365,Fresno USD,Fresno Central,51.7,36.737,-119.787
+CA0287,0.7255,85.7,moderate,no,0.4506,Oakland USD,Oakland Hills,59.1,37.804,-122.271
+CA0288,0.9842,100.0,moderate,no,0.6365,Oakland USD,Oakland North,59.5,37.804,-122.271
+CA0289,1.0,100.0,low,no,0.4506,San Francisco USD,SF Sunset,75.4,37.774,-122.419
+CA0290,1.0,100.0,moderate,no,0.0,Fresno USD,Fresno Central,46.0,36.737,-119.787
+CA0291,0.9954,94.3,low,yes,0.0,Los Angeles USD,LA South,70.9,34.052,-118.243
+CA0292,0.5367,74.9,moderate,yes,0.8676,Oakland USD,Oakland Hills,44.1,37.804,-122.271
+CA0293,0.9177,83.6,high,no,0.0,Oakland USD,Oakland North,57.8,37.804,-122.271
+CA0294,0.9617,100.0,moderate,no,0.0,Bakersfield City SD,Bako West,58.5,35.373,-119.019
+CA0295,0.8259,86.8,critical,no,0.6931,Fresno USD,Fresno East,23.2,36.737,-119.787
+CA0296,0.8605,100.0,high,no,0.6931,San Francisco USD,SF Richmond,65.3,37.774,-122.419
+CA0297,0.9098,82.0,moderate,no,0.6365,Sacramento City USD,Sac Suburbs,63.7,38.581,-121.494
+CA0298,0.996,86.8,moderate,no,0.0,Oakland USD,Oakland North,59.8,37.804,-122.271
+CA0299,0.7663,66.6,low,yes,0.4506,San Francisco USD,SF Mission,67.8,37.774,-122.419
+CA0300,0.649,90.7,low,no,0.8676,Los Angeles USD,LA East,75.4,34.052,-118.243
