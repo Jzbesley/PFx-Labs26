@@ -2,7 +2,8 @@
                                Pfx 2026 student researchers: 
             Courtney Holiday (Spelman College) and Jayla Beasley (NC A&T Univ.)
                          Research  Mentor: Javonte Carter (FAMU)
-Faculty Supervisor: Dr Hongmei Chi (FAMU)# Modeling Equity — Lab Series
+Faculty Supervisor: Dr Hongmei Chi (FAMU)
+## Modeling Equity — Lab Series
 
 A three-day, hands-on coding series for high school seniors. Students use AI coding tools to explore real research on fairness in education — no prior coding experience required.
 
