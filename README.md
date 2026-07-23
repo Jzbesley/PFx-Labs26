@@ -1,6 +1,6 @@
 ## Contributors 
-                               Pfx 2026 student researchers: 
-            Courtney Holiday (Spelman College) and Jayla Beasley (NC A&T Univ.)
+                                                                            Pfx 2026 student researchers: 
+                                                       Courtney Holiday (Spelman College) and Jayla Beasley (NC A&T Univ.)
                          Research  Mentor: Javonte Carter (FAMU)
                          Faculty Supervisor: Dr Hongmei Chi (FAMU)
 ## Modeling Equity — Lab Series
